@@ -10,17 +10,20 @@ package Datos;
  */
 public class Items {
     
+    private int id;
     private String concepto;
     private int preCantidad;
     private int cantidad;
 
-    public Items(String concepto, int preCantidad, int cantidad) {
+    public Items(String concepto, int preCantidad, int cantidad, int id) {
+        this.id = id;
         this.concepto = concepto;
         this.preCantidad = preCantidad;
         this.cantidad = cantidad;
     }
 
     public Items() {
+        this.id = 0;
         this.concepto = "";
         this.preCantidad = 0;
         this.cantidad = 0;        
