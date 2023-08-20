@@ -9,7 +9,7 @@ package Datos;
  * @author cbv16
  */
 public class Items {
-    // si se actualiza o no ?
+    
     private int id;
     private String concepto;
     private int preCantidad;
