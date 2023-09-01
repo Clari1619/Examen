@@ -1,5 +1,7 @@
 
 import javax.swing.JOptionPane;
+import javax.swing.JPasswordField;
+import javax.swing.JTextField;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -286,8 +288,9 @@ public class CajeroAutomatico extends javax.swing.JFrame {
     
     
     private void btnIngresarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIngresarActionPerformed
-
-
+        
+        
+        
         String cuenta = txtCuenta.getText();
         String pin = new String(txtPIN.getPassword());
         
